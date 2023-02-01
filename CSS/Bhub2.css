@@ -11,6 +11,7 @@ body{
     display: block;
     margin: 0;
     font-family: Alongsans;
+ 
 }
 
 /*Links do header*/
@@ -111,45 +112,30 @@ header #divLinksDireita img{
 .texto1{
     display: flex;
     width: 500px;
-    margin-left: 100px;
+    margin-left: 38%;
     margin-top: 50px;
 }
 
 .texto1 h1{
-    font-weight: bolder;
+    font-size: 1.8rem;
+    color: #201b39;
 }
 
 .texto1 h3{
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: bolder;
-
+    color: #201b39;
 }
 
 #Circulo{
     background: orangered;
-    border-radius: 50%;
+    border-radius: 100%;
     width: 100px;
     height: 17px;
     margin-top: 30px;
     margin-right: 20px;
 }
 
-.texto2 {
-    display: flex;
-    width: 500px;
-    margin-left: 500px;
-    margin-top: 50px;
-}
-
-.texto2 h1{
-    font-weight: bolder;
-}
-
-.texto2 h3{
-    font-size: 25px;
-    font-weight: bolder;
-
-}
 
 
 .solucoes img{
