@@ -82,12 +82,13 @@ header #divLinksDireita img{
 .Letreiro{
     background-color: black;
     padding-top: 10px;
-    height: 100%;
+    height: 950px;
     width: 100%;
 }
 
 .Letreiro h1{
     color: white;
+    margin-top: 300px;
     margin-left: 35%;
     font-size: 7rem;
 }
