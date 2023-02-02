@@ -83,7 +83,7 @@ header #divLinksDireita img{
 .Letreiro{
     background-color: black;
     padding-top: 10px;
-    height: 950px;
+    height: 1000px;
     width: 100%;
 }
 
@@ -107,6 +107,7 @@ header #divLinksDireita img{
 .linha1{
     display: flex;
     background-color: #f9bc14;
+    height: 400px;
 }
 
 .texto1{
@@ -117,12 +118,13 @@ header #divLinksDireita img{
 }
 
 .texto1 h1{
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: #201b39;
+    margin-top: 30px;
 }
 
 .texto1 h3{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bolder;
     color: #201b39;
 }
@@ -131,9 +133,10 @@ header #divLinksDireita img{
     background: orangered;
     border-radius: 100%;
     width: 20px;
-    height: 17px;
-    margin-top: 30px;
-    margin-right: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -25px;
 }
 
 
