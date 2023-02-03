@@ -3,6 +3,11 @@
     src: url(../Fontes/Along\ Sans\ Thin.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: AlongsansM;
+    src: url(../Fontes/Along\ Sans\ Light.ttf) format('truetype');
+}
+
 
 
 body{
@@ -107,14 +112,30 @@ header #divLinksDireita img{
 .linha1{
     display: flex;
     background-color: #f9bc14;
-    height: 400px;
+    height: 2000px;
+}
+
+.titulo{
+    font-size: 5rem;
+    position: absolute;
+    margin-left: 40%;
+    font-family: AlongsansM;
+}
+
+.subtitulo{
+    font-size: 4rem;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 34%;
+    font-family: AlongsansM;
 }
 
 .texto1{
     display: flex;
     width: 1000px;
-    margin-left: 38%;
-    margin-top: 50px;
+    margin-left: 34%;
+    margin-top: 350px;
+    position: absolute;
 }
 
 .texto1 h1{
@@ -139,7 +160,17 @@ header #divLinksDireita img{
     margin-left: -25px;
 }
 
+.bhub{
+    display: flex;
+}
 
+#IMGBHUB{
+    display: block;
+    height: 400px;
+    width: 400px;
+    margin-top: 128px;
+    margin-left: 100px;
+}
 
 .solucoes img{
     width: 250px;
@@ -147,43 +178,40 @@ header #divLinksDireita img{
 }
 
 span:before {
-    content: "HUB";
+    content: "hub";
     color: white;
-    animation: BHUB 10s infinite;
+    animation: BHUB 10s infinite backwards;
 }
 
 @keyframes BHUB{
-    0% {
-        content: 'hub';
-      }
+      0%{}
       
-      25% {
+      20% {
         content: 'content';      }
       
-      50% {
+      40% {
         content: 'booth';
       }
       
-      75% {
+      60% {
         content: 'podcast';      }
 
-       100%{
+       80%{
         content: 'chroma';
        } 
+       100%{
+        content: 'hub';
+       }
 }
 
-@media (min-width: 1200px){
-
-    nav{
-        display: none;
-    }
+nav{
+    display: none; /*Tirar o display do celular no pc*/
 }
 /*Inicio da versão para celular*/
 @media (max-width: 1200px){
 
     nav{
         z-index: 900;
-
         display: none;
         flex-direction: column;
 
