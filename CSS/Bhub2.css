@@ -8,6 +8,10 @@
     src: url(../Fontes/Along\ Sans\ Light.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: AlongsansG;
+    src: url(../Fontes/Alongsans\ Medium.ttf) format('truetype');
+}
 
 
 body{
@@ -118,23 +122,23 @@ header #divLinksDireita img{
 .titulo{
     font-size: 5rem;
     position: absolute;
-    margin-left: 40%;
+    margin-left: 700px;
     font-family: AlongsansM;
 }
 
 .subtitulo{
     font-size: 4rem;
     position: absolute;
-    margin-top: 300px;
-    margin-left: 34%;
-    font-family: AlongsansM;
+    margin-top: 200px;
+    margin-left: 700px;
+    font-family: AlongsansG;
 }
 
 .texto1{
     display: flex;
     width: 1000px;
-    margin-left: 34%;
-    margin-top: 350px;
+    margin-left: 700px;
+    margin-top: 300px;
     position: absolute;
 }
 
@@ -168,13 +172,8 @@ header #divLinksDireita img{
     display: block;
     height: 400px;
     width: 400px;
-    margin-top: 128px;
-    margin-left: 100px;
-}
-
-.solucoes img{
-    width: 250px;
-    margin-left: 47%;
+    margin-top: 215px;
+    margin-left: 200px;
 }
 
 span:before {
