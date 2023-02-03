@@ -13,10 +13,6 @@
     src: url(../Fontes/Alongsans\ Medium.ttf) format('truetype');
 }
 
-*{
-    
-}
-
 body{
     background-color: rgb(255, 255, 255);
     height: 100%;
