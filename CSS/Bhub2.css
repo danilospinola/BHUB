@@ -115,7 +115,13 @@ header #divLinksDireita img{
 .linha1{
     display: flex;
     background-color: #f9bc14;
-    height: 2000px;
+    height: 500px;
+}
+
+.linha2{
+    display: flex;
+    background-color: #f9bc14;
+    height: 700px;
 }
 
 .titulo{
@@ -389,7 +395,7 @@ nav{
     
     .Letreiro h1{
         color: white;
-        margin-top: 300px;
+        margin-top: 250px;
         margin-left: 35%;
         font-size: 7rem;
     }
@@ -441,5 +447,22 @@ nav{
         width: 400px;
         margin-top: 215px;
         margin-left: 100px;
+    }
+
+    header #logoBHUB{
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+        width: 100px;
+        margin-left: 40px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+
+    header #divLinksDireita img{
+        height: 40px;
+        margin-right: 40px;
+        margin-top: 10px;
     }
 }

@@ -9,5 +9,5 @@ function change() {
 }
 
 window.onload = function () {
-    setInterval(change, 5000);
+    setInterval(change, 2500);
 };
