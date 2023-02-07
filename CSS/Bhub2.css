@@ -173,7 +173,7 @@ header #divLinksDireita img{
     display: flex;
 }
 
-#IMGBHUB{
+.IMGBHUB{
     display: block;
     height: 400px;
     width: 400px;
@@ -441,7 +441,7 @@ nav{
     }
 
 
-    #IMGBHUB{
+    .IMGBHUB{
         display: block;
         height: 400px;
         width: 400px;
