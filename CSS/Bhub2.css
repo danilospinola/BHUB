@@ -421,7 +421,7 @@ nav{
     .subtitulo{
         font-size: 3.5rem;
         position: absolute;
-        margin-top: 230px;
+        margin-top: 210px;
         margin-left: 550px;
         font-family: AlongsansG;
     }
@@ -430,7 +430,7 @@ nav{
         display: flex;
         width: 800px;
         margin-left: 550px;
-        margin-top: 280px;
+        margin-top: 250px;
         position: absolute;
     }
     
