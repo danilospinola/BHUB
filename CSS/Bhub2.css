@@ -115,7 +115,7 @@ header #divLinksDireita img{
 .linha1{
     display: flex;
     background-color: #f9bc14;
-    height: 500px;
+    height: 550px;
 }
 
 .linha2{
@@ -430,12 +430,12 @@ nav{
         display: flex;
         width: 800px;
         margin-left: 550px;
-        margin-top: 300px;
+        margin-top: 280px;
         position: absolute;
     }
     
     .texto1 h3{
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight: bolder;
         color: #201b39;
     }
