@@ -2,7 +2,7 @@
 
 $("#home").click(function() {
     $('html,body').animate({
-        scrollTop: $(".letreiro").offset().top},
+        scrollTop: $(".Letreiro").offset().top},
         'slow');      
 });
 
