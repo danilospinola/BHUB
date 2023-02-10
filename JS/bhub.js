@@ -2,9 +2,40 @@
 
 $("#home").click(function() {
     $('html,body').animate({
-        scrollTop: $("#primeiro").offset().top},
-        'slow');
+        scrollTop: $(".letreiro").offset().top},
+        'slow');      
 });
+
+$("#solucoes").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#primeiro").offset().top},
+        'slow');      
+});
+
+$("#cases").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#segundo").offset().top},
+        'slow');      
+});
+
+$("#quemsomos").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#terceiro").offset().top},
+        'slow');      
+});
+
+$("#Clientes").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#quarto").offset().top},
+        'slow');      
+});
+
+$("#Contatos").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#quinto").offset().top},
+        'slow');      
+});
+
 /*Fim da Rolagem do site*/
 
 

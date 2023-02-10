@@ -131,6 +131,14 @@ header #divLinksDireita img{
     font-family: AlongsansM;
 }
 
+.titulo2{
+    font-size: 5rem;
+    position: absolute;
+    margin-left: 700px;
+    font-family: AlongsansM;
+    color: #fef0cd;
+}
+
 .subtitulo{
     font-size: 4rem;
     position: absolute;
@@ -185,6 +193,12 @@ span:before {
     content: "hub";
     color: white;
     animation: BHUB 10s infinite backwards;
+}
+
+.cases{
+    background-color: #e53d3d;
+    height: 800px;
+    margin-top: -22px;
 }
 
 @keyframes BHUB{
@@ -418,6 +432,14 @@ nav{
         font-family: AlongsansM;
     }
     
+    .titulo2{
+        font-size: 4.2rem;
+        position: absolute;
+        margin-left: 550px;
+        font-family: AlongsansM;
+        color: #fef0cd;
+    }
+
     .subtitulo{
         font-size: 3.5rem;
         position: absolute;
