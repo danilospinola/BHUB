@@ -38,6 +38,26 @@ $("#Contatos").click(function() {
 
 /*Fim da Rolagem do site*/
 
+/*Começo do header fixo site*/
+var lastScroll = 0;
+var isScrolled = false;
+window.addEventListener("scroll", function () {
+  var topHeader = document.querySelector("Header");
+  var currentScroll =
+    window.pageYOffset ||
+    document.documentElement.scrollTop ||
+    document.body.scrollTop ||
+    0;
+  var scrollDirection = currentScroll < lastScroll;
+  var shouldToggle = isScrolled && scrollDirection;
+  isScrolled = currentScroll > 0;
+  topHeader.classList.toggle("active", shouldToggle);
+  lastScroll = currentScroll;
+});
+/*Fim do header fixo site*/
+
+
+
 
 /*Inicio da troca de imagens*/
 
