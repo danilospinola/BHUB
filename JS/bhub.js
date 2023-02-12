@@ -20,9 +20,10 @@ $("#cases").click(function() {
 
 $("#quemsomos").click(function() {
     $('html,body').animate({
-        scrollTop: $("#terceiro").offset().top},
+        scrollTop: $("#terceiro").offset().top +49},
         'slow');      
 });
+
 
 $("#Clientes").click(function() {
     $('html,body').animate({
@@ -42,7 +43,7 @@ $("#Contatos").click(function() {
 var lastScroll = 0;
 var isScrolled = false;
 window.addEventListener("scroll", function () {
-  var topHeader = document.querySelector("Header");
+  var topHeader = document.querySelector("header");
   var currentScroll =
     window.pageYOffset ||
     document.documentElement.scrollTop ||
@@ -50,7 +51,7 @@ window.addEventListener("scroll", function () {
     0;
   var scrollDirection = currentScroll < lastScroll;
   var shouldToggle = isScrolled && scrollDirection;
-  isScrolled = currentScroll > 0;
+  isScrolled = currentScroll > 1;
   topHeader.classList.toggle("active", shouldToggle);
   lastScroll = currentScroll;
 });

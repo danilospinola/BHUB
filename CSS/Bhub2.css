@@ -41,9 +41,6 @@ header{
     background-color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-weight: 900;
-    transition: 1.5s ease;
-    
-    
 }
 
 .active{
@@ -60,7 +57,6 @@ header{
     position: -webkit-sticky;
     position: fixed;
     top: 0;
-    
 }
 
 /*3 partes do header centralizadas e em linhas*/
@@ -155,6 +151,7 @@ header #divLinksDireita img{
     margin-left: 700px;
     font-family: AlongsansM;
     color: #fef0cd;
+    margin-top: 18px;
 }
 
 .subtitulo{
@@ -185,15 +182,6 @@ header #divLinksDireita img{
     color: #201b39;
 }
 
-#Circulo{
-    background: orangered;
-    border-radius: 100%;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    margin-top: 40px;
-    margin-left: -25px;
-}
 
 .bhub{
     display: flex;
@@ -215,13 +203,177 @@ span:before {
 
 .quemsomos{
     background-color: #e53d3d;
-    height: 800px;
+    height: 2500px;
     margin-top: -22px;
 }
 
 .alinhar{
     display: flex;
+    justify-content: center;
+
 }
+
+.integrantes{
+    margin-top: 200px;
+    width: 300px;
+    height: 300px; 
+    background-size: 300px 300px;
+    background-repeat: no-repeat; 
+    transition: background-image 1s;
+}
+
+.integrantes h1{
+    text-align: center;
+    color: #fef0cd;
+    margin-top: 320px;
+}
+
+.integrantes p{
+    text-align: center;
+    color: #fef0cd;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+
+/* Imagens dos integrantes da BHUB*/
+    #beta{
+        background-image: url(../IMGS/beta_pb.jpg);
+        margin-right:100px ;
+    }
+
+    #beta:hover{
+    background-image: url(../IMGS/beta_color.jpg);
+    z-index: 2;
+    }
+
+    #deborah{
+        background-image: url(../IMGS/deborah_pb.jpg);
+    }
+
+    #deborah:hover{
+    background-image: url(../IMGS/deborah_color.jpg);
+    z-index: 2;
+    }
+
+
+
+    #heruza{
+        background-image: url(../IMGS/heruza_pb.jpg);
+    }
+
+    #heruza:hover{
+    background-image: url(../IMGS/heruza_color.jpg);
+    z-index: 2;
+    }
+
+    #adriana{
+        background-image: url(../IMGS/adriana_pb.jpg);
+        margin-left: 50px;
+    }
+
+    #adriana:hover{
+    background-image: url(../IMGS/adriana_color.jpg);
+    z-index: 2;
+    }
+
+    #jade{
+        background-image: url(../IMGS/jade_pb.jpg);
+        margin-left: 50px;
+    }
+
+    #jade:hover{
+    background-image: url(../IMGS/jade_color.jpg);
+    z-index: 2;
+    }
+
+    #rafael{
+        background-image: url(../IMGS/rafael_pb.jpg);
+        margin-left: 50px;
+    }
+
+    #rafael:hover{
+    background-image: url(../IMGS/rafael_color.jpg);
+    z-index: 2;
+    }
+
+
+
+
+    #diego{
+        background-image: url(../IMGS/diego_pb.jpg);
+    }
+
+    #diego:hover{
+    background-image: url(../IMGS/diego_color.jpg);
+    z-index: 2;
+    }
+
+    #camila{
+        background-image: url(../IMGS/camila_pb.jpg);
+        margin-left: 50px;
+    }
+
+    #camila:hover{
+    background-image: url(../IMGS/camila_color.jpg);
+    z-index: 2;
+    }
+
+    #mahmed{
+        background-image: url(../IMGS/mamede_pb.jpg);
+        margin-left: 50px;
+    }
+
+    #mahmed:hover{
+    background-image: url(../IMGS/mamede_color.jpg);
+    z-index: 2;
+    }
+
+    #miguel{
+        background-image: url(../IMGS/miguel_pb.jpg);
+        margin-left: 50px;
+    }
+
+    #miguel:hover{
+    background-image: url(../IMGS/miguel_color.jpg);
+    z-index: 2;
+    }
+
+
+
+
+
+    #sandra{
+        background-image: url(../IMGS/sandra_pb.jpg);
+    }
+
+    #sandra:hover{
+    background-image: url(../IMGS/sandra_color.jpg);
+    z-index: 2;
+    }
+
+    #nayara{
+        background-image: url(../IMGS/nayara_pb.jpg);
+        margin-left: 50px;
+    }
+
+    #nayara:hover{
+    background-image: url(../IMGS/nayara_color.jpg);
+    z-index: 2;
+    }
+
+    #nathalia{
+        background-image: url(../IMGS/nathalia_pb.jpg);
+        margin-left: 50px;
+    }
+
+    #nathalia:hover{
+    background-image: url(../IMGS/nathalia_color.jpg);
+    z-index: 2;
+    }
+/* Fim das imagens dos integrantes da BHUB*/
+
+
 
 @keyframes BHUB{
       0%{}
@@ -509,4 +661,6 @@ nav{
         margin-right: 40px;
         margin-top: 10px;
     }
+
+
 }
