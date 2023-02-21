@@ -27,7 +27,7 @@ $("#quemsomos").click(function() {
 
 $("#Clientes").click(function() {
     $('html,body').animate({
-        scrollTop: $("#quarto").offset().top},
+        scrollTop: $("#quarto").offset().top+49},
         'slow');      
 });
 

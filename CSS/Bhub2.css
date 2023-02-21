@@ -154,6 +154,17 @@ header #divLinksDireita img{
     margin-top: 18px;
 }
 
+.titulo3{
+    font-size: 5rem;
+    position: absolute;
+    margin-left: 800px;
+    font-family: AlongsansM;
+    color: #6c6c6c;
+    margin-top: 18px;
+}
+
+
+
 .subtitulo{
     font-size: 4rem;
     position: absolute;
@@ -201,9 +212,10 @@ span:before {
     animation: BHUB 10s infinite backwards;
 }
 
+/*Inicio do quem somos*/
 .quemsomos{
     background-color: #e53d3d;
-    height: 2500px;
+    height: 2300px;
     margin-top: -22px;
 }
 
@@ -226,6 +238,7 @@ span:before {
     text-align: center;
     color: #fef0cd;
     margin-top: 320px;
+    font-size: 1.5rem;
 }
 
 .integrantes p{
@@ -235,11 +248,47 @@ span:before {
     margin-top: -10px;
 }
 
+.info{
+        display: flex;
+        flex-direction: column;
+        margin-top: -400px;
+        margin-left: 10px;
+    }
+
+.info img{
+        height: 40px;
+        width: 40px;
+}
+
+.info2{
+    display: flex;
+    flex-direction: column;
+    margin-top: -435px;
+    margin-left: 10px;
+}
+
+.info2 img{
+    height: 40px;
+    width: 40px;
+}
+
+.info3{
+    display: flex;
+    flex-direction: column;
+    margin-top: -460px;
+    margin-left: 10px;
+}
+
+.info3 img{
+    height: 40px;
+    width: 40px;
+}
+
 
 /* Imagens dos integrantes da BHUB*/
     #beta{
         background-image: url(../IMGS/beta_pb.jpg);
-        margin-right:100px ;
+        margin-right: 50px ;
     }
 
     #beta:hover{
@@ -373,6 +422,79 @@ span:before {
     }
 /* Fim das imagens dos integrantes da BHUB*/
 
+/* Inicio dos clientes da BHUB*/
+.Clientes{
+    background-color: white;
+    height: 1010px;
+    display: block;
+}
+
+.linha_Clientes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+}
+
+
+.linha_Clientes img{
+    height: 160.8px;
+    width: 286.116px;
+}
+
+
+
+.linha_Clientes2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 360px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+}
+
+
+.linha_Clientes2 img{
+    height: 160.8px;
+    width: 286.116px;
+}
+
+.linha_Clientes3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 520px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+}
+
+
+.linha_Clientes3 img{
+    height: 160.8px;
+    width: 286.116px;
+}
+
+.linha_Clientes4{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 680px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 260px;
+}
+
+
+.linha_Clientes4 img{
+    height: 160.8px;
+    width: 286.116px;
+}
+/* Fim dos clientes da BHUB*/
 
 
 @keyframes BHUB{
@@ -399,6 +521,9 @@ span:before {
 nav{
     display: none; /*Tirar o display do celular no pc*/
 }
+
+
+
 /*Inicio da versão para celular*/
 @media (max-width: 1200px){
 
@@ -614,6 +739,15 @@ nav{
         color: #fef0cd;
     }
 
+    .titulo3{
+        font-size: 5rem;
+        position: absolute;
+        margin-left: 600px;
+        font-family: AlongsansM;
+        color: #6c6c6c;
+        margin-top: 18px;
+    }
+
     .subtitulo{
         font-size: 3.5rem;
         position: absolute;
@@ -663,4 +797,63 @@ nav{
     }
 
 
+    .linha_Clientes{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-top: 200px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .linha_Clientes img{
+        height: 134px;
+        width: 238.43px;
+    }
+
+    .linha_Clientes2{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-top: 330px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .linha_Clientes2 img{
+        height: 134px;
+        width: 238.43px;
+    }
+
+    .linha_Clientes3{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-top: 460px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .linha_Clientes3 img{
+        height: 134px;
+        width: 238.43px;
+    }
+
+    .linha_Clientes4{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-top: 590px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 180px;
+    }
+
+    .linha_Clientes4 img{
+        height: 134px;
+        width: 238.43px;
+    }
 }
