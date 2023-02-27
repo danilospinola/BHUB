@@ -31,9 +31,9 @@ $("#Clientes").click(function() {
         'slow');      
 });
 
-$("#Contatos").click(function() {
+$("#Contato").click(function() {
     $('html,body').animate({
-        scrollTop: $("#quinto").offset().top},
+        scrollTop: $("#quinto").offset().top+49},
         'slow');      
 });
 

@@ -414,7 +414,7 @@ span:before {
 /* Inicio dos clientes da BHUB*/
 .Clientes{
     background-color: white;
-    height: 1010px;
+    height: 850px;
     display: block;
 }
 
@@ -484,6 +484,86 @@ span:before {
     width: 286.116px;
 }
 /* Fim dos clientes da BHUB*/
+
+/* Começo contato*/
+.contato{
+    height: 1000px;
+    width: auto;
+    background-color: #2a2a28;
+}
+
+
+
+.titulo4{
+    color: #fef0cd;
+    font-size: 5rem;
+    position: absolute;
+    margin-left: 800px;
+    font-family: AlongsansM;
+    margin-top: 18px;
+}
+
+.linha_contato{
+    display: flex;
+    flex-direction: row;
+}
+
+.endereco{
+    position: absolute;
+    color: #fef0cd;
+    margin-top: 220px;
+    margin-left: 250px;
+}
+
+.linha_contato iframe{
+    margin-top: 280px;
+    justify-self: left;
+    margin-left: 250px;
+}
+
+.linha_contato h2{
+    color: #fef0cd;
+    font-size: 1.8rem;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.contato input{
+    width: 700px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.inputs h2{
+    margin-left: 200px;
+}
+
+.titulo_input{
+    margin-top: 50px;
+}
+
+#mensagem{
+    height: 250px;
+}
+
+.inputs button{
+    width: 300px;
+    margin-left: 320px;
+    height: 50px;
+    background-color: #2a2a28;
+    border-color: #fef0cd;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #fef0cd;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* Fim contato*/
 
 
 @keyframes BHUB{
@@ -737,6 +817,15 @@ nav{
         margin-top: 18px;
     }
 
+    .titulo4{
+        color: #fef0cd;
+        font-size: 5rem;
+        position: absolute;
+        margin-left: 600px;
+        font-family: AlongsansM;
+        margin-top: 18px;
+    }
+
     .subtitulo{
         font-size: 3.5rem;
         position: absolute;
@@ -845,4 +934,74 @@ nav{
         height: 134px;
         width: 238.43px;
     }
+
+
+    
+.titulo4{
+    color: #fef0cd;
+    font-size: 5rem;
+    position: absolute;
+    margin-left: 800px;
+    font-family: AlongsansM;
+    margin-top: 18px;
+}
+
+.linha_contato{
+    display: flex;
+    flex-direction: row;
+}
+
+.endereco{
+    position: absolute;
+    color: #fef0cd;
+    margin-top: 220px;
+    margin-left: 30px;
+}
+
+.linha_contato iframe{
+    margin-top: 280px;
+    justify-self: left;
+    margin-left: 80px;
+}
+
+.linha_contato h2{
+    color: #fef0cd;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.contato input{
+    width: 700px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.inputs h2{
+    margin-left: 200px;
+}
+
+.titulo_input{
+    margin-top: 50px;
+}
+
+#mensagem{
+    height: 250px;
+}
+
+.inputs button{
+    width: 300px;
+    margin-left: 320px;
+    height: 50px;
+    background-color: #2a2a28;
+    border-color: #fef0cd;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #fef0cd;
+    font-size: 35px;
+    cursor: pointer;
+}
 }
