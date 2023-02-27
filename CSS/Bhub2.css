@@ -512,7 +512,8 @@ span:before {
     position: absolute;
     color: #fef0cd;
     margin-top: 220px;
-    margin-left: 250px;
+    margin-left: 275px;
+    font-size: 1.6rem;
 }
 
 .linha_contato iframe{
@@ -539,7 +540,7 @@ span:before {
 }
 
 .inputs h2{
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .titulo_input{
@@ -936,15 +937,6 @@ nav{
     }
 
 
-    
-.titulo4{
-    color: #fef0cd;
-    font-size: 5rem;
-    position: absolute;
-    margin-left: 800px;
-    font-family: AlongsansM;
-    margin-top: 18px;
-}
 
 .linha_contato{
     display: flex;
@@ -955,7 +947,8 @@ nav{
     position: absolute;
     color: #fef0cd;
     margin-top: 220px;
-    margin-left: 30px;
+    margin-left: 120px;
+    font-size: 1.5rem;
 }
 
 .linha_contato iframe{
@@ -981,7 +974,7 @@ nav{
 }
 
 .inputs h2{
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .titulo_input{
