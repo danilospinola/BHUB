@@ -592,6 +592,28 @@ span:before {
        }
 }
 
+
+
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+
+  .reveal.active {
+    opacity: 1;
+  }
+
+@keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
 nav{
     display: none; /*Tirar o display do celular no pc*/
 }
@@ -950,8 +972,16 @@ nav{
 .endereco{
     position: absolute;
     color: #fef0cd;
+    margin-top: 190px;
+    margin-left: 130px;
+    font-size: 1.5rem;
+}
+
+.fone{
+    position: absolute;
+    color: #fef0cd;
     margin-top: 220px;
-    margin-left: 120px;
+    margin-left: 205px;
     font-size: 1.5rem;
 }
 
@@ -988,4 +1018,6 @@ nav{
 #mensagem{
     height: 250px;
 }
+
+
 }
