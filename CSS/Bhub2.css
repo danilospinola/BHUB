@@ -261,18 +261,6 @@ span:before {
 }
 
 
-.info3{
-    display: flex;
-    flex-direction: column;
-    margin-top: -415px;
-    margin-left: 10px;
-}
-
-.info3 img{
-    height: 40px;
-    width: 40px;
-}
-
 
 /* Imagens dos integrantes da BHUB*/
     #beta{
@@ -511,8 +499,16 @@ span:before {
 .endereco{
     position: absolute;
     color: #fef0cd;
-    margin-top: 220px;
+    margin-top: 190px;
     margin-left: 275px;
+    font-size: 1.6rem;
+}
+
+.fone{
+    position: absolute;
+    color: #fef0cd;
+    margin-top: 220px;
+    margin-left: 345px;
     font-size: 1.6rem;
 }
 
@@ -526,6 +522,8 @@ span:before {
     color: #fef0cd;
     font-size: 1.8rem;
 }
+
+
 
 .inputs{
     display: flex;
