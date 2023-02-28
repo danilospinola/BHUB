@@ -261,6 +261,19 @@ span:before {
 }
 
 
+.info2{
+    display: flex;
+    flex-direction: column;
+    margin-top: -425px;
+    margin-left: 10px;
+}
+
+.info2 img{
+    height: 40px;
+    width: 40px;
+}
+
+
 
 /* Imagens dos integrantes da BHUB*/
     #beta{
