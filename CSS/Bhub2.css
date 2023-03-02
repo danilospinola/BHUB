@@ -212,6 +212,59 @@ span:before {
     animation: BHUB 10s infinite backwards;
 }
 
+/*Inicio das cases*/
+
+.cases{
+    background-color: #59b069;
+    color: #fef0cd;
+    height: 1500px;
+    width: 100%;
+}
+
+.titulo5{
+    color: #fef0cd;
+    font-size: 5rem;
+    position: absolute;
+    font-family: AlongsansM;
+    margin-left: 850px;
+
+}
+
+
+.case{
+    padding-left:30px;
+}
+
+
+#vid{
+    display: flex;
+    flex-direction: row;
+    padding-top: 300px;
+}
+
+#vid video{
+    width: 600px  ;
+}
+
+
+#vid .Titulo_cliente{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 350px;
+    font-size: 2.5rem;
+
+}
+
+#vid .Titulo_vid{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -50px;
+    font-size: 2.5rem;
+}
+
+/*Fim das cases*/
+
+
 /*Inicio do quem somos*/
 .quemsomos{
     background-color: #e53d3d;
@@ -806,7 +859,7 @@ nav{
 
 }
 
-@media (max-height: 800px){
+@media (max-height: 886px){
     
     .Letreiro{
         background-color: black;
@@ -913,6 +966,58 @@ nav{
         margin-right: 40px;
         margin-top: 10px;
     }
+
+
+    
+    /*Videos*/
+
+    .cases{
+        background-color: #59b069;  /*Necessita ajustar o tamanho com base na quantidade de videos*/
+        color: #fef0cd;
+        height: 1300px;
+        width: 100%;
+    }
+    
+    .titulo5{
+        color: #fef0cd;
+        font-size: 5rem;
+        position: absolute;
+        font-family: AlongsansM;
+        margin-left: 650px;
+    
+    }
+
+    .case{
+        padding-left:50px;
+    }
+    
+    
+    #vid{
+        display: flex;
+        flex-direction: row;
+        padding-top: 250px;
+    }
+    
+    #vid video{
+        width: 450px  ;
+    }
+    
+    
+    #vid .Titulo_cliente{
+        position: absolute;
+        margin-left: 135px;
+        margin-top: 270px;
+        font-size: 2rem;
+    }
+    
+    #vid .Titulo_vid{
+        position: absolute;
+        margin-left: 175px;
+        margin-top: -50px;
+        font-size: 2rem;
+    }
+    
+    /*Videos*/
 
 
     .linha_Clientes{

@@ -14,7 +14,7 @@ $("#solucoes").click(function() {
 
 $("#cases").click(function() {
     $('html,body').animate({
-        scrollTop: $("#segundo").offset().top},
+        scrollTop: $("#segundo").offset().top + 19},
         'slow');      
 });
 
