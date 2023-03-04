@@ -13,12 +13,21 @@
     src: url(../Fontes/Alongsans\ Medium.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: Gotham;
+    src: url(../Fontes/gotham.otf) format('opentype');
+}
+
+.linha1, .linha2{
+    text-align: justify;
+}
+
 body{
     background-color: rgb(255, 255, 255);
     height: 100%;
     display: block;
     margin: 0;
-    font-family: Alongsans;
+    font-family: Gotham;
  
 }
 
@@ -31,6 +40,7 @@ a{
 
 /*Espaço do header*/
 header{
+
     z-index: 700;
     top: 0px;
     display: flex;
@@ -39,7 +49,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: rgb(0, 0, 0);
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 900;
 }
 
@@ -52,7 +62,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: rgb(0, 0, 0);
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 900;
     position: -webkit-sticky;
     position: fixed;
@@ -61,6 +71,7 @@ header{
 
 /*3 partes do header centralizadas e em linhas*/
 header #divLinksHeader, #divLinkDireita,#divLogoEMenu{
+    font-family: AlongsansM;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -105,7 +116,7 @@ header #divLinksDireita img{
 .Letreiro{
     background-color: black;
     padding-top: 10px;
-    height: 1000px;
+    height: 800px;
     width: 100%;
 }
 
@@ -114,6 +125,7 @@ header #divLinksDireita img{
     margin-top: 300px;
     margin-left: 35%;
     font-size: 7rem;
+    font-family: alongsans;
 }
 
 .solucoes{
@@ -227,7 +239,6 @@ span:before {
     position: absolute;
     font-family: AlongsansM;
     margin-left: 850px;
-
 }
 
 
@@ -249,17 +260,14 @@ span:before {
 
 #vid .Titulo_cliente{
     position: absolute;
-    margin-left: 200px;
     margin-top: 350px;
-    font-size: 2.5rem;
-
+    font-size: 1.7rem;
 }
 
 #vid .Titulo_vid{
     position: absolute;
-    margin-left: 250px;
-    margin-top: -50px;
-    font-size: 2.5rem;
+    margin-top:385px;
+    font-size: 1.7rem;
 }
 
 /*Fim das cases*/
@@ -292,6 +300,7 @@ span:before {
     color: #fef0cd;
     margin-top: 320px;
     font-size: 1.5rem;
+    font-family: alongsans;
 }
 
 .integrantes p{
@@ -597,7 +606,7 @@ span:before {
     margin-top: 200px;
 }
 
-.contato input{
+.contato input, .contato textarea{
     width: 700px;
     height: 50px;
     margin-left: 100px;
@@ -860,13 +869,7 @@ nav{
 }
 
 @media (max-height: 886px){
-    
-    .Letreiro{
-        background-color: black;
-        padding-top: 10px;
-        height: 1000px;
-        width: 100%;
-    }
+
     
     .Letreiro h1{
         color: white;
@@ -1005,16 +1008,14 @@ nav{
     
     #vid .Titulo_cliente{
         position: absolute;
-        margin-left: 135px;
-        margin-top: 270px;
-        font-size: 2rem;
+        margin-top: 260px;
+        font-size: 1.4em;
     }
     
     #vid .Titulo_vid{
         position: absolute;
-        margin-left: 175px;
-        margin-top: -50px;
-        font-size: 2rem;
+        margin-top:285px;
+        font-size: 1.4rem;
     }
     
     /*Videos*/
