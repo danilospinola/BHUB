@@ -550,7 +550,7 @@ span:before {
 
 /* Começo contato*/
 .contato{
-    height: 1300px;
+    height: 1100px;
     width: auto;
     background-color: #2a2a28;
 }
@@ -614,11 +614,10 @@ span:before {
 
 .inputs h2{
     margin-left: 100px;
+    font-size: 20px;
 }
 
-.titulo_input{
-    margin-top: 50px;
-}
+
 
 #mensagem{
     height: 250px;
@@ -1117,7 +1116,7 @@ nav{
 .inputs{
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .contato input{
@@ -1130,9 +1129,6 @@ nav{
     margin-left: 100px;
 }
 
-.titulo_input{
-    margin-top: 50px;
-}
 
 #mensagem{
     height: 250px;
