@@ -719,7 +719,7 @@ nav{
 
 
 /*Inicio da versão para celular*/
-@media (max-width: 1200px){
+@media (max-width: 1000px){
 
     nav{
         z-index: 900;
