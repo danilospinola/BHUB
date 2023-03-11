@@ -319,7 +319,7 @@ span:before {
 .titulo2{
     font-size: 3.5rem;
     position: absolute;
-    margin-left: 20px;
+    margin-left: 40px;
     font-family: AlongsansM;
     color: #fef0cd;
     margin-top: 18px;
@@ -328,7 +328,7 @@ span:before {
 .titulo3{
     font-size: 3.5rem;
     position: absolute;
-    margin-left: 20px;
+    margin-left: 85px;
     font-family: AlongsansM;
     color: #6c6c6c;
     margin-top: 18px;
@@ -426,19 +426,20 @@ span:before {
 /*Inicio do quem somos*/
 .quemsomos{
     background-color: #e53d3d;
-    height: 2300px;
+    height: 5700px;
     margin-top: -22px;
 }
 
 .alinhar{
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
 }
 
 .integrantes{
-    margin-top: 200px;
-    background-size: 200px 300px;
+    margin-top: 118px;
+    margin-left: 55px;
+    background-size: 305px 305px;
     background-repeat: no-repeat; 
     transition: background-image 1s;
 }
@@ -447,7 +448,7 @@ span:before {
     text-align: center;
     color: #fef0cd;
     margin-top: 320px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: alongsans;
 }
 
@@ -489,6 +490,7 @@ span:before {
     #beta{
         background-image: url(../IMGS/beta_pb.jpg);
         margin-right: 50px ;
+        margin-top: 170px;
     }
 
     #beta:hover{
