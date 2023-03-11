@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="IMGS/B.jpg" type="image/x-icon">
     <link rel="stylesheet" href="CSS/Bhub2.css">
+    <link rel="stylesheet" href="CSS/Bhub.css">
     <title>BHUB</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
@@ -378,7 +379,7 @@
                     <input id="Nome"  type="text">
  
                     <h2 class="titulo_input">Telefone</h2> 
-                    <input id="Telefone"  type="text">
+                    <input  type="tel" id="phone" type="number" name="phone" data-parsley-ui-enabled="false" data-parsley-minlength="14" data-parsley-maxlength="14" class="phone">
 
                     <h2 class="titulo_input">Email</h2> 
                     <input id="email"  type="text">
@@ -399,7 +400,7 @@
 
             <a href="Termos.html" target="_blank"><p  id="termos">©2023 | Todos os direitos reservados</p></a>
 
-            <a href="Politica.html" target="_blank"><p id="politica">Termos de uso | Politica de privacidade</p></a>
+            <p id="politica">Termos de uso | <a href="Politica.html" target="_blank">Politica de privacidade</a></p>
             
             <div id="footerLogos">
                <a href="https://www.linkedin.com/company/b-hub-corporate-events/mycompany/" target="_blank"> <img id="footer_logo" src="IMGS/linkedin02.png" alt=""></a>

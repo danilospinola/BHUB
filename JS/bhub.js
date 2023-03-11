@@ -85,4 +85,5 @@ window.onload = function () {
 
 /*Fim da troca de imagens*/
 
+//$("#Telefone").mask("(99) 9999-9999");
 
