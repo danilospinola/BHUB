@@ -128,6 +128,12 @@ header #divLinksDireita img{
     font-family: alongsans;
 }
 
+span:before {
+    content: "hub";
+    color: white;
+    animation: BHUB 10s infinite backwards;
+}
+
 .solucoes{
     height: 450px;
     
@@ -205,6 +211,9 @@ header #divLinksDireita img{
     color: #201b39;
 }
 
+a{
+    text-decoration: none;
+}
 
 .bhub{
     display: flex;
@@ -218,11 +227,7 @@ header #divLinksDireita img{
     margin-left: 200px;
 }
 
-span:before {
-    content: "hub";
-    color: white;
-    animation: BHUB 10s infinite backwards;
-}
+
 
 /*Inicio das cases*/
 
@@ -439,8 +444,6 @@ span:before {
     background-image: url(../IMGS/miguel_color.jpg);
     z-index: 2;
     }
-
-
 
 
 
