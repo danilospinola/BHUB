@@ -178,636 +178,619 @@
     margin: 0;
     font-family: Gotham;
  
-}
+    }
 
 /*Links do header*/
 
-a{
-    text-decoration: none;
-}
+    a{
+        text-decoration: none;
+    }
 
 
-/*Espaço do header*/
-header{
+    /*Espaço do header*/
+    header{
 
-    z-index: 700;
-    top: 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(0, 0, 0);
-    text-transform: lowercase;
-    font-weight: 900;
-}
+        z-index: 700;
+        top: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+        text-transform: lowercase;
+        font-weight: 900;
+    }
 
-.active{
-    z-index: 700;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(0, 0, 0);
-    text-transform: lowercase;
-    font-weight: 900;
-    position: -webkit-sticky;
-    position: fixed;
-    top: 0;
-}
+    .active{
+        z-index: 700;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+        text-transform: lowercase;
+        font-weight: 900;
+        position: -webkit-sticky;
+        position: fixed;
+        top: 0;
+    }
 
-/*3 partes do header centralizadas e em linhas*/
-header #divLinksHeader, #divLinkDireita,#divLogoEMenu{
-    font-family: AlongsansM;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    
-}
+    /*3 partes do header centralizadas e em linhas*/
+    header #divLinksHeader, #divLinkDireita,#divLogoEMenu{
+        font-family: AlongsansM;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        
+    }
 
-/*Logo da pagina na esquerda*/
-header #logoBHUB{
-    cursor: pointer;
-    user-select: none;
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
-    width: 140px;
-    margin-left: 40px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
+    /*Logo da pagina na esquerda*/
+    header #logoBHUB{
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+        width: 140px;
+        margin-left: 40px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
 
-/*Partes do meio do header*/
-header .link-header{
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 20px;
-    transition: 0.2s;
-}
+    /*Partes do meio do header*/
+    header .link-header{
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 25px;
+        padding-right: 25px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 20px;
+        transition: 0.2s;
+    }
 
-/*Imagens da parte direita do header*/
-header #divLinksDireita img{
-    height: 50px;
-    margin-right: 40px;
-}
+    /*Imagens da parte direita do header*/
+    header #divLinksDireita img{
+        height: 50px;
+        margin-right: 40px;
+    }
 
-/*Header acaba aqui*/
+    /*Header acaba aqui*/
 
-/*Começa o body do site*/
-.Letreiro{
-    background-color: black;
-    padding-top: 10px;
-    height: 800px;
-    width: 100%;
-}
+    /*Começa o body do site*/
+    .Letreiro{
+        background-color: black;
+        padding-top: 10px;
+        height: 800px;
+        width: 100%;
+    }
 
-span:before {
-    content: "hub";
-    color: white;
-    animation: BHUB 10s infinite backwards;
-}
+    span:before {
+        content: "hub";
+        color: white;
+        animation: BHUB 10s infinite backwards;
+    }
 
-.Letreiro h1{
-    color: white;
-    margin-top: 300px;
-    margin-left: 5%;
-    font-size: 5rem;
-    font-family: alongsans;
-}
+    .Letreiro h1{
+        color: white;
+        margin-top: 300px;
+        margin-left: 5%;
+        font-size: 5rem;
+        font-family: alongsans;
+    }
 
-.solucoes{
-    height: 450px;
-    
-}
+    .solucoes{
+        height: 450px;
+        
+    }
 
-.solucoes h3{
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-}
+    .solucoes h3{
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+    }
 
-.linha1{
-    display: flex;
-    background-color: #f9bc14;
-    height: 1000px;
-    margin-top: -2px;
-    text-align: center;
-}
+    .linha1{
+        display: flex;
+        background-color: #f9bc14;
+        height: 1000px;
+        margin-top: -2px;
+        text-align: center;
+    }
 
-.linha2{
-    display: flex;
-    background-color: #f9bc14;
-    height: 1100px;
-    text-align: center;
+    .linha2{
+        display: flex;
+        background-color: #f9bc14;
+        height: 1100px;
+        text-align: center;
 
-}
+    }
 
-.titulo{
-    font-size: 3.5rem;
-    position: absolute;
-    margin-left: 20px;
-    font-family: AlongsansM;
-}
+    .titulo{
+        font-size: 3.5rem;
+        position: absolute;
+        margin-left: 20px;
+        font-family: AlongsansM;
+    }
 
-.titulo2{
-    font-size: 3.5rem;
-    position: absolute;
-    margin-left: 40px;
-    font-family: AlongsansM;
-    color: #fef0cd;
-    margin-top: 18px;
-}
+    .titulo2{
+        font-size: 3.5rem;
+        position: absolute;
+        margin-left: 40px;
+        font-family: AlongsansM;
+        color: #fef0cd;
+        margin-top: 18px;
+    }
 
-.titulo3{
-    font-size: 3.5rem;
-    position: absolute;
-    margin-left: 85px;
-    font-family: AlongsansM;
-    color: #6c6c6c;
-    margin-top: 18px;
-}
-
-
-
-.subtitulo{
-    font-size: 3rem;
-    position: absolute;
-    margin-top: 600px;
-    margin-left: 70px;
-    font-family: AlongsansG;
-}
-
-.texto1{
-    display: flex;
-    width: 95%;
-    margin-left: 0;
-    margin-top: 650px;
-    position: absolute;
-}
-
-.texto1 h3{
-    font-size: 1.3rem;
-    font-weight: bolder;
-    color: #201b39;
-}
-
-
-.bhub{
-    display: flex;
-}
-
-.IMGBHUB{
-    display: block;
-    height: 400px;
-    width: 400px;
-    margin-top: 175px;
-    margin-left: 7px;
-}
+    .titulo3{
+        font-size: 3.5rem;
+        position: absolute;
+        margin-left: 85px;
+        font-family: AlongsansM;
+        color: #6c6c6c;
+        margin-top: 18px;
+    }
 
 
 
-/*Inicio das cases*/
+    .subtitulo{
+        font-size: 3rem;
+        position: absolute;
+        margin-top: 600px;
+        margin-left: 70px;
+        font-family: AlongsansG;
+    }
 
-.titulo5{
-    color: #fef0cd;
-    font-size: 3.5rem;
-    position: absolute;
-    font-family: AlongsansM;
-    margin-left: 115px;
-}
+    .texto1{
+        display: flex;
+        width: 95%;
+        margin-left: 0;
+        margin-top: 650px;
+        position: absolute;
+    }
 
-.cases{
-    background-color: #59b069;
-    color: #fef0cd;
-    height: 2300px;
-    width: 100%;
-}
-
-
-.case{
-    padding-left: 5px;
-}
-
-
-#vid{
-    display: flex;
-    flex-direction: column;
-    padding-top: 0px;
-}
-
-#vid video{
-    width: 400px ;
-    padding-top: 125px;
-}
+    .texto1 h3{
+        font-size: 1.3rem;
+        font-weight: bolder;
+        color: #201b39;
+    }
 
 
-#vid .Titulo_cliente{
-    position: absolute;
-    margin-top: 375px;
-    font-size: 1.5rem;
-}
+    .bhub{
+        display: flex;
+    }
 
-#vid .Titulo_vid{
-    position: absolute;
-    margin-top:410px;
-    font-size: 1.5rem;
-}
-
-/*Fim das cases*/
+    .IMGBHUB{
+        display: block;
+        height: 400px;
+        width: 400px;
+        margin-top: 175px;
+        margin-left: 7px;
+    }
 
 
-/*Inicio do quem somos*/
-.quemsomos{
-    background-color: #e53d3d;
-    height: 5700px;
-    margin-top: -22px;
-}
 
-.alinhar{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+    /*Inicio das cases*/
 
-.integrantes{
-    margin-top: 118px;
-    margin-left: 55px;
-    background-size: 305px 305px;
-    background-repeat: no-repeat; 
-    transition: background-image 1s;
-}
+    .titulo5{
+        color: #fef0cd;
+        font-size: 3.5rem;
+        position: absolute;
+        font-family: AlongsansM;
+        margin-left: 115px;
+    }
 
-.integrantes h1{
-    text-align: center;
-    color: #fef0cd;
-    margin-top: 320px;
-    font-size: 1.5rem;
-    font-family: alongsans;
-}
+    .cases{
+        background-color: #59b069;
+        color: #fef0cd;
+        height: 2300px;
+        width: 100%;
+    }
 
-.integrantes p{
-    text-align: center;
-    color: #fef0cd;
-    font-size: 20px;
-    margin-top: -10px;
-}
 
-.info{
+    .case{
+        padding-left: 5px;
+    }
+
+
+    #vid{
         display: flex;
         flex-direction: column;
-        margin-top: -390px;
+        padding-top: 0px;
+    }
+
+    #vid video{
+        width: 400px ;
+        padding-top: 125px;
+    }
+
+
+    #vid .Titulo_cliente{
+        position: absolute;
+        margin-top: 375px;
+        font-size: 1.5rem;
+    }
+
+    #vid .Titulo_vid{
+        position: absolute;
+        margin-top:410px;
+        font-size: 1.5rem;
+    }
+
+    /*Fim das cases*/
+
+
+    /*Inicio do quem somos*/
+    .quemsomos{
+        background-color: #e53d3d;
+        height: 5700px;
+        margin-top: -22px;
+    }
+
+    .alinhar{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .integrantes{
+        margin-top: 118px;
+        margin-left: 55px;
+        background-size: 305px 305px;
+        background-repeat: no-repeat; 
+        transition: background-image 1s;
+    }
+
+    .integrantes h1{
+        text-align: center;
+        color: #fef0cd;
+        margin-top: 320px;
+        font-size: 1.5rem;
+        font-family: alongsans;
+    }
+
+    .integrantes p{
+        text-align: center;
+        color: #fef0cd;
+        font-size: 20px;
+        margin-top: -10px;
+    }
+
+    .info{
+            display: flex;
+            flex-direction: column;
+            margin-top: -390px;
+            margin-left: 10px;
+        }
+
+    .info img{
+            height: 40px;
+            width: 40px;
+    }
+
+
+    .info2{
+        display: flex;
+        flex-direction: column;
+        margin-top: -425px;
         margin-left: 10px;
     }
 
-.info img{
+    .info2 img{
         height: 40px;
         width: 40px;
-}
-
-
-.info2{
-    display: flex;
-    flex-direction: column;
-    margin-top: -425px;
-    margin-left: 10px;
-}
-
-.info2 img{
-    height: 40px;
-    width: 40px;
-}
-
-
-
-/* Imagens dos integrantes da BHUB*/
-    #beta{
-        background-image: url(../IMGS/beta_pb.jpg);
-        margin-right: 50px ;
-        margin-top: 170px;
-    }
-
-    #beta:hover{
-    background-image: url(../IMGS/beta_color.jpg);
-    z-index: 2;
-    }
-
-    #deborah{
-        background-image: url(../IMGS/deborah_pb.jpg);
-    }
-
-    #deborah:hover{
-    background-image: url(../IMGS/deborah_color.jpg);
-    z-index: 2;
     }
 
 
 
-    #heruza{
-        background-image: url(../IMGS/heruza_pb.jpg);
+    /* Imagens dos integrantes da BHUB*/
+        #beta{
+            background-image: url(../IMGS/beta_pb.jpg);
+            margin-right: 50px ;
+            margin-top: 170px;
+        }
+
+        #beta:hover{
+        background-image: url(../IMGS/beta_color.jpg);
+        z-index: 2;
+        }
+
+        #deborah{
+            background-image: url(../IMGS/deborah_pb.jpg);
+        }
+
+        #deborah:hover{
+        background-image: url(../IMGS/deborah_color.jpg);
+        z-index: 2;
+        }
+
+
+
+        #heruza{
+            background-image: url(../IMGS/heruza_pb.jpg);
+        }
+
+        #heruza:hover{
+        background-image: url(../IMGS/heruza_color.jpg);
+        z-index: 2;
+        }
+
+        #adriana{
+            background-image: url(../IMGS/adriana_pb.jpg);
+            margin-left: 50px;
+        }
+
+        #adriana:hover{
+        background-image: url(../IMGS/adriana_color.jpg);
+        z-index: 2;
+        }
+
+        #jade{
+            background-image: url(../IMGS/jade_pb.jpg);
+            margin-left: 50px;
+        }
+
+        #jade:hover{
+        background-image: url(../IMGS/jade_color.jpg);
+        z-index: 2;
+        }
+
+        #rafael{
+            background-image: url(../IMGS/rafael_pb.jpg);
+            margin-left: 50px;
+        }
+
+        #rafael:hover{
+        background-image: url(../IMGS/rafael_color.jpg);
+        z-index: 2;
+        }
+
+
+
+
+        #diego{
+            background-image: url(../IMGS/diego_pb.jpg);
+        }
+
+        #diego:hover{
+        background-image: url(../IMGS/diego_color.jpg);
+        z-index: 2;
+        }
+
+        #camila{
+            background-image: url(../IMGS/camila_pb.jpg);
+            margin-left: 50px;
+        }
+
+        #camila:hover{
+        background-image: url(../IMGS/camila_color.jpg);
+        z-index: 2;
+        }
+
+        #mahmed{
+            background-image: url(../IMGS/mamede_pb.jpg);
+            margin-left: 50px;
+        }
+
+        #mahmed:hover{
+        background-image: url(../IMGS/mamede_color.jpg);
+        z-index: 2;
+        }
+
+        #miguel{
+            background-image: url(../IMGS/miguel_pb.jpg);
+            margin-left: 50px;
+        }
+
+        #miguel:hover{
+        background-image: url(../IMGS/miguel_color.jpg);
+        z-index: 2;
+        }
+
+
+
+
+
+        #sandra{
+            background-image: url(../IMGS/sandra_pb.jpg);
+        }
+
+        #sandra:hover{
+        background-image: url(../IMGS/sandra_color.jpg);
+        z-index: 2;
+        }
+
+        #nayara{
+            background-image: url(../IMGS/nayara_pb.jpg);
+            margin-left: 50px;
+        }
+
+        #nayara:hover{
+        background-image: url(../IMGS/nayara_color.jpg);
+        z-index: 2;
+        }
+
+        #nathalia{
+            background-image: url(../IMGS/nathalia_pb.jpg);
+            margin-left: 50px;
+        }
+
+        #nathalia:hover{
+        background-image: url(../IMGS/nathalia_color.jpg);
+        z-index: 2;
+        }
+    /* Fim das imagens dos integrantes da BHUB*/
+
+    /* Inicio dos clientes da BHUB*/
+    .Clientes{
+        background-color: white;
+        height: 2350px;
+        display: block;
     }
 
-    #heruza:hover{
-    background-image: url(../IMGS/heruza_color.jpg);
-    z-index: 2;
-    }
+    .linha_Clientes{
+        display: none;
 
-    #adriana{
-        background-image: url(../IMGS/adriana_pb.jpg);
-        margin-left: 50px;
-    }
-
-    #adriana:hover{
-    background-image: url(../IMGS/adriana_color.jpg);
-    z-index: 2;
-    }
-
-    #jade{
-        background-image: url(../IMGS/jade_pb.jpg);
-        margin-left: 50px;
-    }
-
-    #jade:hover{
-    background-image: url(../IMGS/jade_color.jpg);
-    z-index: 2;
-    }
-
-    #rafael{
-        background-image: url(../IMGS/rafael_pb.jpg);
-        margin-left: 50px;
-    }
-
-    #rafael:hover{
-    background-image: url(../IMGS/rafael_color.jpg);
-    z-index: 2;
     }
 
 
 
+    .linha_Clientes2{
+        display: none;
 
-    #diego{
-        background-image: url(../IMGS/diego_pb.jpg);
     }
 
-    #diego:hover{
-    background-image: url(../IMGS/diego_color.jpg);
-    z-index: 2;
+    .linha_Clientes3{
+        display: none;
+
     }
 
-    #camila{
-        background-image: url(../IMGS/camila_pb.jpg);
-        margin-left: 50px;
+    .linha_Clientes4{
+        display: none;
     }
 
-    #camila:hover{
-    background-image: url(../IMGS/camila_color.jpg);
-    z-index: 2;
+    .linha_cel{
+        padding-top: 20px;
+        display: flex;
     }
 
-    #mahmed{
-        background-image: url(../IMGS/mamede_pb.jpg);
-        margin-left: 50px;
+    .linha_cel img{
+        margin-top: 40px;
+        width: 200px;
     }
 
-    #mahmed:hover{
-    background-image: url(../IMGS/mamede_color.jpg);
-    z-index: 2;
+    #clientes_cel{
+        position: absolute;
+        margin-top: 20px;
+    }
+    /* Fim dos clientes da BHUB*/
+
+
+
+    /* Começo contato*/
+
+    .contato{
+        height: 1050px;
+        width: auto;
+        background-color: #2a2a28;
     }
 
-    #miguel{
-        background-image: url(../IMGS/miguel_pb.jpg);
-        margin-left: 50px;
+    .titulo4{
+        color: #fef0cd;
+        font-size: 3.5rem;
+        position: absolute;
+        margin-left: 100px;
+        font-family: AlongsansM;
+        margin-top: 18px;
     }
 
-    #miguel:hover{
-    background-image: url(../IMGS/miguel_color.jpg);
-    z-index: 2;
+    .linha_contato{
+        display: flex;
+        flex-direction: row;
     }
 
-
-
-
-
-    #sandra{
-        background-image: url(../IMGS/sandra_pb.jpg);
+    .endereco{
+        position: absolute;
+        color: #fef0cd;
+        margin-top: 110px;
+        margin-left: 0px;
+        font-size: 1.1rem;
     }
 
-    #sandra:hover{
-    background-image: url(../IMGS/sandra_color.jpg);
-    z-index: 2;
+    .fone{
+        position: absolute;
+        color: #fef0cd;
+        margin-top: 140px;
+        margin-left: 0;
+        font-size: 1.1rem;
     }
 
-    #nayara{
-        background-image: url(../IMGS/nayara_pb.jpg);
-        margin-left: 50px;
+    .linha_contato iframe{
+        display: none;
     }
 
-    #nayara:hover{
-    background-image: url(../IMGS/nayara_color.jpg);
-    z-index: 2;
+    .linha_contato h2{
+        color: #fef0cd;
+        font-size: 1rem;
     }
 
-    #nathalia{
-        background-image: url(../IMGS/nathalia_pb.jpg);
-        margin-left: 50px;
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
     }
 
-    #nathalia:hover{
-    background-image: url(../IMGS/nathalia_color.jpg);
-    z-index: 2;
+    .contato input, .contato textarea{
+        width: 375px;
+        height: 50px;
+        margin-left: 0px;
+        font-size: 1.2rem;
     }
-/* Fim das imagens dos integrantes da BHUB*/
 
-/* Inicio dos clientes da BHUB*/
-.Clientes{
-    background-color: white;
-    height: 2350px;
-    display: block;
-}
+    .inputs h2{
+        margin-left: 0px;
+        font-size: 20px;
+    }
 
-.linha_Clientes{
-    display: none;
+    #mensagem{
+        height: 250px;
+    }
 
-}
+    .inputs button{
+        width: 150px;
+        margin-left: 120px;
+        background-color: #2a2a28;
+        border-color: #fef0cd;
+        border-radius: 10px;
+        margin-top: 30px;
+        color: #fef0cd;
+        font-size: 35px;
+        cursor: pointer;
+    }
 
+    .inputs button p{
+        margin-top: 0px;
+        font-family: AlongsansG;
+    }
 
+    /* Footer */
 
-.linha_Clientes2{
-    display: none;
+    #footer{
+        background-color:#000000;
+        height: 100px;
+    }
 
-}
+    #footer img{
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+        width: 115px;
+        margin-left: 20px;
+        margin-top: 35px;
+    }
 
-.linha_Clientes3{
-    display: none;
+    #footer #termos{
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 170px;
+        color: white;
+        font-size: 0.9rem;
+    }
 
-}
+    #footer #politica{
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 170px;
+        color: white;
+        font-size: 0.9rem;
+    }
 
-.linha_Clientes4{
-    display: none;
-}
-
-.linha_cel{
-    padding-top: 20px;
-    display: flex;
-}
-
-.linha_cel img{
-    margin-top: 40px;
-    width: 200px;
-}
-
-#clientes_cel{
-    position: absolute;
-    margin-top: 20px;
-}
-/* Fim dos clientes da BHUB*/
-
-/* Começo contato*/
-.contato{
-    height: 1050px;
-    width: auto;
-    background-color: #2a2a28;
-}
-
-
-
-.titulo4{
-    color: #fef0cd;
-    font-size: 3.5rem;
-    position: absolute;
-    margin-left: 20px;
-    font-family: AlongsansM;
-    margin-top: 18px;
-}
-
-.linha_contato{
-    display: flex;
-    flex-direction: row;
-}
-
-.endereco{
-    position: absolute;
-    color: #fef0cd;
-    margin-top: 190px;
-    margin-left: 0px;
-    font-size: 1rem;
-}
-
-.fone{
-    position: absolute;
-    color: #fef0cd;
-    margin-top: 220px;
-    margin-left: 0;
-    font-size: 1rem;
-}
-
-.linha_contato iframe{
-    margin-top: 280px;
-    justify-self: left;
-    margin-left: 0;
-}
-
-.linha_contato h2{
-    color: #fef0cd;
-    font-size: 1rem;
-}
-
-
-
-.inputs{
-    display: flex;
-    flex-direction: column;
-    margin-top: 200px;
-}
-
-.contato input, .contato textarea{
-    width: 10px;
-    height: 50px;
-    margin-left: 0px;
-}
-
-.inputs h2{
-    margin-left: 0px;
-    font-size: 20px;
-}
-
-
-
-#mensagem{
-    height: 250px;
-}
-
-.inputs button{
-    width: 10px;
-    margin-left: 3px;
-    height: 10px;
-    background-color: #2a2a28;
-    border-color: #fef0cd;
-    border-radius: 10px;
-    margin-top: 30px;
-    color: #fef0cd;
-    font-size: 35px;
-    cursor: pointer;
-}
-
-.inputs button p{
-    margin-top: 0px;
-    font-family: AlongsansG;
-}
-
-
-#footer{
-    background-color:#000000;
-    height: 100px;
-}
-
-#footer img{
-    cursor: pointer;
-    user-select: none;
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
-    width: 115px;
-    margin-left: 100px;
-    margin-top: 35px;
-}
-
-#footer #termos{
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 0px;
-    color: white;
-}
-
-#footer #politica{
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 0px;
-    color: white;
-}
-
-#footer #footerLogos{
-    position: absolute;
-    margin-top: -85px;
-    margin-left: 0px;
-}
-
-#footer #footerLogos img{
-    position: absolute;
-    padding-left: 20px;
-    width: 45px;
-    
-}
-#footer #footerLogos #footer_logo{
-    margin-left: 40px;
-}
-
-
-
+    #footer #footerLogos{
+        display: none;
+    }
 
 }
