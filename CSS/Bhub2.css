@@ -550,6 +550,10 @@ a{
     height: 160.8px;
     width: 286.116px;
 }
+
+.linha_cel{
+    display: none;
+}
 /* Fim dos clientes da BHUB*/
 
 /* Começo contato*/

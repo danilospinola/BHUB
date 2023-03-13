@@ -627,74 +627,44 @@ span:before {
 /* Inicio dos clientes da BHUB*/
 .Clientes{
     background-color: white;
-    height: 850px;
+    height: 2350px;
     display: block;
 }
 
 .linha_Clientes{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    margin-top: 200px;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 0;
-}
+    display: none;
 
-
-.linha_Clientes img{
-    height: 50px;
-    width: 50px;
 }
 
 
 
 .linha_Clientes2{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    margin-top: 360px;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 0;
-}
+    display: none;
 
-
-.linha_Clientes2 img{
-    height: 50px;
-    width: 50px;
 }
 
 .linha_Clientes3{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    margin-top: 520px;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 0;
-}
+    display: none;
 
-
-.linha_Clientes3 img{
-    height: 50px;
-    width: 50px;
 }
 
 .linha_Clientes4{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    margin-top: 680px;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 0px;
+    display: none;
 }
 
+.linha_cel{
+    padding-top: 20px;
+    display: flex;
+}
 
-.linha_Clientes4 img{
-    height: 50px;
-    width: 50px;
+.linha_cel img{
+    margin-top: 40px;
+    width: 200px;
+}
+
+#clientes_cel{
+    position: absolute;
+    margin-top: 20px;
 }
 /* Fim dos clientes da BHUB*/
 
@@ -836,5 +806,8 @@ span:before {
 #footer #footerLogos #footer_logo{
     margin-left: 40px;
 }
+
+
+
 
 }
